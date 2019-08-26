@@ -1,0 +1,23 @@
+{
+  "name": "difflinks",
+  "version": "1.0.0",
+  "description": "just a different links",
+  "main": "index.js",
+  "repository": "https://github.com/G2-715/difflinks",
+  "author": "G2-715",
+  "license": "MIT",
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.6.0",
+    "webpack-dev-server": "^3.1.14",
+    "css-loader": "^2.1.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "node-sass": "^4.11.0",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --open --hot",
+    "build": "webpack --mode=production"
+  }
+}
